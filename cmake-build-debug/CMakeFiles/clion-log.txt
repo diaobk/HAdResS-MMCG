@@ -1,0 +1,258 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs
+-- The C compiler identification is AppleClang 8.1.0.8020042
+-- The CXX compiler identification is AppleClang 8.1.0.8020042
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using default binary suffix: ""
+-- Using default library suffix: ""
+-- Looking for include file string.h
+-- Looking for include file string.h - found
+-- Looking for include file math.h
+-- Looking for include file math.h - found
+-- Looking for include file limits.h
+-- Looking for include file limits.h - found
+-- Looking for include file memory.h
+-- Looking for include file memory.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file direct.h
+-- Looking for include file direct.h - not found
+-- Looking for include file pwd.h
+-- Looking for include file pwd.h - found
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file stdlib.h
+-- Looking for include file stdlib.h - found
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for include file dirent.h
+-- Looking for include file dirent.h - found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file regex.h
+-- Looking for include file regex.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file sys/stat.h
+-- Looking for include file sys/stat.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file rpc/rpc.h
+-- Looking for include file rpc/rpc.h - found
+-- Looking for include files rpc/rpc.h, rpc/xdr.h
+-- Looking for include files rpc/rpc.h, rpc/xdr.h - found
+-- Looking for include file xmmintrin.h
+-- Looking for include file xmmintrin.h - found
+-- Looking for include file emmintrin.h
+-- Looking for include file emmintrin.h - found
+-- Looking for include file pmmintrin.h
+-- Looking for include file pmmintrin.h - found
+-- Looking for include file smmintrin.h
+-- Looking for include file smmintrin.h - found
+-- Looking for include file io.h
+-- Looking for include file io.h - not found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for vprintf
+-- Looking for vprintf - found
+-- Looking for memcmp
+-- Looking for memcmp - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for memalign
+-- Looking for memalign - not found
+-- Looking for _aligned_malloc
+-- Looking for _aligned_malloc - not found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for isnan
+-- Looking for isnan - found
+-- Looking for _isnan
+-- Looking for _isnan - not found
+-- Looking for isfinite
+-- Looking for isfinite - not found
+-- Looking for _isfinite
+-- Looking for _isfinite - not found
+-- Looking for fsync
+-- Looking for fsync - found
+-- Looking for _fileno
+-- Looking for _fileno - not found
+-- Looking for fileno
+-- Looking for fileno - found
+-- Looking for _commit
+-- Looking for _commit - not found
+-- Looking for sqrt in m
+-- Looking for sqrt in m - found
+-- Looking for cbrt in m
+-- Looking for cbrt in m - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of bool
+-- Check size of bool - failed
+-- Check size of int
+-- Check size of int - done
+-- Check size of long int
+-- Check size of long int - done
+-- Check size of long long int
+-- Check size of long long int - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of void *
+-- Check size of void * - done
+-- Check size of uid_t
+-- Check size of uid_t - done
+-- Check size of gid_t
+-- Check size of gid_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Found LibXml2: /usr/lib/libxml2.dylib (found version "2.9.4") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Performing Test PTHREAD_SETAFFINITY
+-- Performing Test PTHREAD_SETAFFINITY - Failed
+-- Looking for include file sched.h
+-- Looking for include file sched.h - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Atomics found
+-- Found Git: /usr/local/bin/git  
+-- Setting build user & time
+CMake Warning (dev) at cmake/gmxCheckBuildUserTime.cmake:20 (set):
+  Policy CMP0053 is not set: Simplify variable reference and escape sequence
+  evaluation.  Run "cmake --help-policy CMP0053" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  For input:
+
+    '@TMP_USER@\@@TMP_HOSTNAME@ [CMAKE]'
+
+  the old evaluation rules produce:
+
+    'kseniakorshunova@pool-18-43-zam2168.wlan.kfa-juelich.de [CMAKE]'
+
+  but the new evaluation rules produce:
+
+    '@TMP_USER@@@TMP_HOSTNAME@ [CMAKE]'
+
+  Using the old result for compatibility since the policy is not set.
+Call Stack (most recent call first):
+  CMakeLists.txt:530 (gmx_check_build_user_time)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/gmxCheckBuildUserTime.cmake:21 (set):
+  Policy CMP0053 is not set: Simplify variable reference and escape sequence
+  evaluation.  Run "cmake --help-policy CMP0053" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  For input:
+
+    '@TMP_TIME@'
+
+  the old evaluation rules produce:
+
+    'Mon May 29 17:12:00 CEST 2017'
+
+  but the new evaluation rules produce:
+
+    '@TMP_TIME@'
+
+  Using the old result for compatibility since the policy is not set.
+Call Stack (most recent call first):
+  CMakeLists.txt:530 (gmx_check_build_user_time)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/gmxCheckBuildUserTime.cmake:23 (set):
+  Policy CMP0053 is not set: Simplify variable reference and escape sequence
+  evaluation.  Run "cmake --help-policy CMP0053" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  For input:
+
+    '@TMP_MACHINE@'
+
+  the old evaluation rules produce:
+
+    'Darwin 16.6.0 x86_64'
+
+  but the new evaluation rules produce:
+
+    '@TMP_MACHINE@'
+
+  Using the old result for compatibility since the policy is not set.
+Call Stack (most recent call first):
+  CMakeLists.txt:530 (gmx_check_build_user_time)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Setting build user & time - OK
+-- Checking floating point format
+-- Checking floating point format - IEEE754 (LE byte, LE word)
+-- Checking for 64-bit off_t
+-- Checking for 64-bit off_t - present
+-- Checking for fseeko/ftello
+-- Checking for fseeko/ftello - present
+-- Checking for SIGUSR1
+-- Checking for SIGUSR1 - found
+-- Checking for inline keyword
+-- Checking for inline keyword - inline
+-- Checking for inline keyword
+-- Checking for inline keyword - inline
+-- Checking for pipe support
+-- Checking for GCC x86 inline asm
+-- Checking for GCC x86 inline asm - supported
+-- Checking for MSVC x86 inline asm
+-- Checking for MSVC x86 inline asm - not supported
+-- Checking for system XDR support
+-- Checking for system XDR support - present
+CMake Warning (dev) at CMakeLists.txt:580 (elseif):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "SSE" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found FFTW3F: /usr/local/lib/libfftw3f.a  
+-- The ASM-ATT compiler identification is unknown
+-- Found assembler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/as
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   gmx
+   gmxana
+   gmxpreprocess
+   md
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug

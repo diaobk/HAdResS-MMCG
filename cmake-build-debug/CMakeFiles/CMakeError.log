@@ -1,0 +1,359 @@
+Determining if files direct.h exist failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_954e9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_954e9.dir/build.make CMakeFiles/cmTC_954e9.dir/build
+Building C object CMakeFiles/cmTC_954e9.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_954e9.dir/CheckIncludeFiles.c.o   -c /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'direct.h' file not found
+#include <direct.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_954e9.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_954e9/fast] Error 2
+
+Source:
+/* */
+#include <direct.h>
+
+
+int main(void){return 0;}
+
+Determining if files io.h exist failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec088/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ec088.dir/build.make CMakeFiles/cmTC_ec088.dir/build
+Building C object CMakeFiles/cmTC_ec088.dir/CheckIncludeFiles.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_ec088.dir/CheckIncludeFiles.c.o   -c /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ec088.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_ec088/fast] Error 2
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b090/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9b090.dir/build.make CMakeFiles/cmTC_9b090.dir/build
+Building C object CMakeFiles/cmTC_9b090.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_9b090.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9b090
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b090.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9b090.dir/CheckFunctionExists.c.o  -o cmTC_9b090  
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9b090] Error 1
+make: *** [cmTC_9b090/fast] Error 2
+
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01c33/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_01c33.dir/build.make CMakeFiles/cmTC_01c33.dir/build
+Building C object CMakeFiles/cmTC_01c33.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_aligned_malloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_01c33.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01c33
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01c33.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_aligned_malloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_01c33.dir/CheckFunctionExists.c.o  -o cmTC_01c33  
+Undefined symbols for architecture x86_64:
+  "__aligned_malloc", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_01c33] Error 1
+make: *** [cmTC_01c33/fast] Error 2
+
+
+Determining if the function _isnan exists failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7454/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c7454.dir/build.make CMakeFiles/cmTC_c7454.dir/build
+Building C object CMakeFiles/cmTC_c7454.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_isnan -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_c7454.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7454
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7454.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_isnan -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7454.dir/CheckFunctionExists.c.o  -o cmTC_c7454  
+Undefined symbols for architecture x86_64:
+  "__isnan", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c7454] Error 1
+make: *** [cmTC_c7454/fast] Error 2
+
+
+Determining if the function isfinite exists failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0339b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0339b.dir/build.make CMakeFiles/cmTC_0339b.dir/build
+Building C object CMakeFiles/cmTC_0339b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=isfinite -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_0339b.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0339b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0339b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=isfinite -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0339b.dir/CheckFunctionExists.c.o  -o cmTC_0339b  
+Undefined symbols for architecture x86_64:
+  "_isfinite", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0339b] Error 1
+make: *** [cmTC_0339b/fast] Error 2
+
+
+Determining if the function _isfinite exists failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8688/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f8688.dir/build.make CMakeFiles/cmTC_f8688.dir/build
+Building C object CMakeFiles/cmTC_f8688.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_isfinite -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_f8688.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8688
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8688.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_isfinite -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f8688.dir/CheckFunctionExists.c.o  -o cmTC_f8688  
+Undefined symbols for architecture x86_64:
+  "__isfinite", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f8688] Error 1
+make: *** [cmTC_f8688/fast] Error 2
+
+
+Determining if the function _fileno exists failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d68b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1d68b.dir/build.make CMakeFiles/cmTC_1d68b.dir/build
+Building C object CMakeFiles/cmTC_1d68b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_fileno -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_1d68b.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1d68b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d68b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_fileno -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1d68b.dir/CheckFunctionExists.c.o  -o cmTC_1d68b  
+Undefined symbols for architecture x86_64:
+  "__fileno", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1d68b] Error 1
+make: *** [cmTC_1d68b/fast] Error 2
+
+
+Determining if the function _commit exists failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36d7d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_36d7d.dir/build.make CMakeFiles/cmTC_36d7d.dir/build
+Building C object CMakeFiles/cmTC_36d7d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_commit -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_36d7d.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36d7d
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36d7d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_commit -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_36d7d.dir/CheckFunctionExists.c.o  -o cmTC_36d7d  
+Undefined symbols for architecture x86_64:
+  "__commit", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_36d7d] Error 1
+make: *** [cmTC_36d7d/fast] Error 2
+
+
+Determining size of bool failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_549d0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_549d0.dir/build.make CMakeFiles/cmTC_549d0.dir/build
+Building C object CMakeFiles/cmTC_549d0.dir/SIZEOF_BOOL.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_549d0.dir/SIZEOF_BOOL.c.o   -c /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:19:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:19:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:20:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:20:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:21:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:21:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:22:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:22:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:23:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:23:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_549d0.dir/SIZEOF_BOOL.c.o] Error 1
+make: *** [cmTC_549d0/fast] Error 2
+
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test PTHREAD_SETAFFINITY failed with the following output:
+Change Dir: /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f62a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6f62a.dir/build.make CMakeFiles/cmTC_6f62a.dir/build
+Building C object CMakeFiles/cmTC_6f62a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DPTHREAD_SETAFFINITY -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_6f62a.dir/src.c.o   -c /Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:18: error: use of undeclared identifier 'cpu_set_t'
+int main(void) { cpu_set_t set;
+                 ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:7:5: warning: implicit declaration of function 'CPU_ZERO' is invalid in C99 [-Wimplicit-function-declaration]
+    CPU_ZERO(&set);
+    ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:7:15: error: use of undeclared identifier 'set'
+    CPU_ZERO(&set);
+              ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:8:5: warning: implicit declaration of function 'CPU_SET' is invalid in C99 [-Wimplicit-function-declaration]
+    CPU_SET(0, &set);
+    ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:8:17: error: use of undeclared identifier 'set'
+    CPU_SET(0, &set);
+                ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:9:5: warning: implicit declaration of function 'pthread_setaffinity_np' is invalid in C99 [-Wimplicit-function-declaration]
+    pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+    ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:9:51: error: use of undeclared identifier 'set'
+    pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+                                                  ^
+/Users/kseniakorshunova/Documents/PhD_project/gromacs_HAdResS/adressmacs/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:9:58: error: use of undeclared identifier 'set'
+    pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+                                                         ^
+3 warnings and 5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_6f62a.dir/src.c.o] Error 1
+make: *** [cmTC_6f62a/fast] Error 2
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+int main(void) { cpu_set_t set;
+    CPU_ZERO(&set);
+    CPU_SET(0, &set);
+    pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+    return 0;
+}
+Checking whether the ASM-ATT compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Checking whether the ASM-ATT compiler is HP using "-V" terminated after 10 s due to timeout.Checking whether the ASM-ATT compiler is Intel using "--version" did not match "(ICC)":
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Checking whether the ASM-ATT compiler is SunPro using "-V" terminated after 10 s due to timeout.Checking whether the ASM-ATT compiler is XL using "-qversion" did not match "XL C":
+clang: error: unknown argument: '-qversion'
+Checking whether the ASM-ATT compiler is MSVC using "/?" did not match "Microsoft":
+clang: error: no such file or directory: '/?'
+clang: error: no input files
+Checking whether the ASM-ATT compiler is TI using "-h" did not match "Texas Instruments":
+clang: error: unknown argument: '-h'
+Checking whether the ASM-ATT compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Checking whether the ASM-ATT compiler is IAR using "" terminated after 10 s due to timeout.Checking whether the ASM-ATT compiler is ARMCC using "" terminated after 10 s due to timeout.

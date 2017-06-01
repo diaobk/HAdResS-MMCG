@@ -1,0 +1,12 @@
+libdir=/home/tarenzi/hadressmacs/adressmacs/installed/lib
+includedir=/home/tarenzi/hadressmacs/adressmacs/installed/include
+
+Name: libgmx
+Description: Gromacs default lib
+URL: http://www.gromacs.org
+Version: 4.6-dev
+Requires:
+Libs.private: -lm  -ldl
+Libs: -L${libdir} -lgmx_mpi_d
+Cflags: -I${includedir}  -DGMX_DOUBLE -DGMX_SOFTWARE_INVSQRT -DGMX_LIB_MPI
+

@@ -1,0 +1,1 @@
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused   -fomit-frame-pointer -finline-functions -funroll-all-loops  -O3 -DNDEBUG     CMakeFiles/g_nmeig.dir/g_nmeig.c.o  -o CMakeFiles/CMakeRelink.dir/g_nmeig -rdynamic libgmxana.a ../mdlib/libmd.a -lfftw3f -lxml2 ../gmxlib/libgmx.a -ldl -lm -lpthread -Wl,-rpath,/data/pckr144/potestio/hadressmacs/hadress_spehere_static/lib 

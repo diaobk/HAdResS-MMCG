@@ -1,0 +1,12 @@
+libdir=/home/tarenzi/hadressmacs/adressmacs/installed/lib
+includedir=/home/tarenzi/hadressmacs/adressmacs/installed/include
+
+Name: libgmxpreprocess
+Description: Gromacs preprocess lib
+URL: http://www.gromacs.org
+Version: 4.6-dev
+Requires: libgmx_mpi_d libmd_mpi_d 
+Libs.private: -lm 
+Libs: -L${libdir} -lgmxpreprocess_mpi_d
+Cflags: -I${includedir}  -DGMX_DOUBLE -DGMX_SOFTWARE_INVSQRT -DGMX_LIB_MPI
+

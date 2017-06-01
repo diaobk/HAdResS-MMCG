@@ -1,0 +1,1 @@
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused   -fomit-frame-pointer -finline-functions -funroll-all-loops  -O3 -DNDEBUG     CMakeFiles/g_rmsf.dir/g_rmsf.c.o  -o g_rmsf -rdynamic libgmxana.a ../mdlib/libmd.a -lfftw3f -lxml2 ../gmxlib/libgmx.a -ldl -lm -lpthread 

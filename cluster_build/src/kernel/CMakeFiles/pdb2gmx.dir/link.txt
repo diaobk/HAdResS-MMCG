@@ -1,0 +1,1 @@
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused   -fomit-frame-pointer -finline-functions -funroll-all-loops  -O3 -DNDEBUG     CMakeFiles/pdb2gmx.dir/pdb2gmx.c.o  -o pdb2gmx -rdynamic -ldl -lm libgmxpreprocess.a ../mdlib/libmd.a ../gmxlib/libgmx.a -ldl -lm -lpthread -lfftw3f -lxml2 

@@ -1,0 +1,1 @@
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused   -fomit-frame-pointer -finline-functions -funroll-all-loops  -O3 -DNDEBUG     CMakeFiles/tpbconv.dir/tpbconv.c.o  -o tpbconv -rdynamic -ldl -lm libgmxpreprocess.a ../mdlib/libmd.a ../gmxlib/libgmx.a -ldl -lm -lpthread -lfftw3f -lxml2 

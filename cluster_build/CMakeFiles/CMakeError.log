@@ -1,0 +1,358 @@
+Determining if files direct.h exist failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3035937848/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3035937848.dir/build.make CMakeFiles/cmTryCompileExec3035937848.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3035937848.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused       -o CMakeFiles/cmTryCompileExec3035937848.dir/CheckIncludeFiles.c.o   -c /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: direct.h: No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3035937848.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3035937848/fast] Error 2
+
+Source:
+/* */
+#include <direct.h>
+
+
+int main(){return 0;}
+
+Determining if files pmmintrin.h exist failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1599712378/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1599712378.dir/build.make CMakeFiles/cmTryCompileExec1599712378.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1599712378.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused       -o CMakeFiles/cmTryCompileExec1599712378.dir/CheckIncludeFiles.c.o   -c /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/pmmintrin.h:32:3: error: #error "SSE3 instruction set not enabled"
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1599712378.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1599712378/fast] Error 2
+
+Source:
+/* */
+#include <pmmintrin.h>
+
+
+int main(){return 0;}
+
+Determining if files smmintrin.h exist failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2217484674/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2217484674.dir/build.make CMakeFiles/cmTryCompileExec2217484674.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2217484674.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused       -o CMakeFiles/cmTryCompileExec2217484674.dir/CheckIncludeFiles.c.o   -c /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/smmintrin.h:31:3: error: #error "SSE4.1 instruction set not enabled"
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2217484674.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec2217484674/fast] Error 2
+
+Source:
+/* */
+#include <smmintrin.h>
+
+
+int main(){return 0;}
+
+Determining if files io.h exist failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2844796982/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2844796982.dir/build.make CMakeFiles/cmTryCompileExec2844796982.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2844796982.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused       -o CMakeFiles/cmTryCompileExec2844796982.dir/CheckIncludeFiles.c.o   -c /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:16: fatal error: io.h: No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2844796982.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2844796982/fast] Error 2
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1074867698/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1074867698.dir/build.make CMakeFiles/cmTryCompileExec1074867698.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1074867698.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTryCompileExec1074867698.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1074867698
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1074867698.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_aligned_malloc    CMakeFiles/cmTryCompileExec1074867698.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1074867698 -rdynamic 
+CMakeFiles/cmTryCompileExec1074867698.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_aligned_malloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1074867698] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1074867698/fast] Error 2
+
+
+Determining if the function _isnan exists failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3455482122/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3455482122.dir/build.make CMakeFiles/cmTryCompileExec3455482122.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3455482122.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_isnan   -o CMakeFiles/cmTryCompileExec3455482122.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3455482122
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3455482122.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_isnan    CMakeFiles/cmTryCompileExec3455482122.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3455482122 -rdynamic 
+CMakeFiles/cmTryCompileExec3455482122.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_isnan'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3455482122] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3455482122/fast] Error 2
+
+
+Determining if the function isfinite exists failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2080900294/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2080900294.dir/build.make CMakeFiles/cmTryCompileExec2080900294.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2080900294.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=isfinite   -o CMakeFiles/cmTryCompileExec2080900294.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2080900294
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2080900294.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=isfinite    CMakeFiles/cmTryCompileExec2080900294.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2080900294 -rdynamic 
+CMakeFiles/cmTryCompileExec2080900294.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `isfinite'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2080900294] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2080900294/fast] Error 2
+
+
+Determining if the function _isfinite exists failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec705011917/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec705011917.dir/build.make CMakeFiles/cmTryCompileExec705011917.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec705011917.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_isfinite   -o CMakeFiles/cmTryCompileExec705011917.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec705011917
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec705011917.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_isfinite    CMakeFiles/cmTryCompileExec705011917.dir/CheckFunctionExists.c.o  -o cmTryCompileExec705011917 -rdynamic 
+CMakeFiles/cmTryCompileExec705011917.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_isfinite'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec705011917] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec705011917/fast] Error 2
+
+
+Determining if the function _fileno exists failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1969919332/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1969919332.dir/build.make CMakeFiles/cmTryCompileExec1969919332.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1969919332.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_fileno   -o CMakeFiles/cmTryCompileExec1969919332.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1969919332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1969919332.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_fileno    CMakeFiles/cmTryCompileExec1969919332.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1969919332 -rdynamic 
+CMakeFiles/cmTryCompileExec1969919332.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_fileno'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1969919332] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1969919332/fast] Error 2
+
+
+Determining if the function _commit exists failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3652030496/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3652030496.dir/build.make CMakeFiles/cmTryCompileExec3652030496.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3652030496.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_commit   -o CMakeFiles/cmTryCompileExec3652030496.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3652030496
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3652030496.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=_commit    CMakeFiles/cmTryCompileExec3652030496.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3652030496 -rdynamic 
+CMakeFiles/cmTryCompileExec3652030496.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_commit'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3652030496] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3652030496/fast] Error 2
+
+
+Determining size of bool failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec777522654/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec777522654.dir/build.make CMakeFiles/cmTryCompileExec777522654.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec777522654.dir/SIZEOF_BOOL.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused       -o CMakeFiles/cmTryCompileExec777522654.dir/SIZEOF_BOOL.c.o   -c /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:19:12: error: ‘bool’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec777522654.dir/SIZEOF_BOOL.c.o] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec777522654/fast] Error 2
+
+/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3694696539/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3694696539.dir/build.make CMakeFiles/cmTryCompileExec3694696539.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3694696539.dir/TestEndianess.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused       -o CMakeFiles/cmTryCompileExec3694696539.dir/TestEndianess.c.o   -c /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec3694696539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3694696539.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused        CMakeFiles/cmTryCompileExec3694696539.dir/TestEndianess.c.o  -o cmTryCompileExec3694696539 -rdynamic 
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1126665145/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1126665145.dir/build.make CMakeFiles/cmTryCompileExec1126665145.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1126665145.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused       -o CMakeFiles/cmTryCompileExec1126665145.dir/CheckSymbolExists.c.o   -c /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1126665145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1126665145.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused        CMakeFiles/cmTryCompileExec1126665145.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1126665145 -rdynamic 
+CMakeFiles/cmTryCompileExec1126665145.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1126665145] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1126665145/fast] Error 2
+
+File /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec104469328/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec104469328.dir/build.make CMakeFiles/cmTryCompileExec104469328.dir/build
+gmake[1]: Entering directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec104469328.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec104469328.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec104469328
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec104469328.dir/link.txt --verbose=1
+/usr/bin/gcc   -fexcess-precision=fast -Wall -Wno-unused    -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec104469328.dir/CheckFunctionExists.c.o  -o cmTryCompileExec104469328 -rdynamic -lpthreads 
+/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec104469328] Error 1
+gmake[1]: Leaving directory `/data/pckr144/potestio/hadressmacs/adressmacs/cluster_build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec104469328/fast] Error 2
+
+
